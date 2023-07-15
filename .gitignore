@@ -1,0 +1,17 @@
+# File dan direktori yang diabaikan oleh Git
+.Git
+
+# File lingkungan dan konfigurasi
+.env
+.env.local
+
+# Direktori dependensi
+node_modules/
+
+# Direktori hasil kompilasi dan build
+dist/
+build/
+
+# Direktori cache dan file sementara
+.cache/
+.yarn/
