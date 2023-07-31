@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ClarishaBOT/soothe.git"
+    "url": "git+https://github.com/lrmn7/soothe.git"
   },
   "keywords": [],
   "author": "LRMN",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ClarishaBOT/soothe/issues"
+    "url": "https://github.com/lrmn7/soothe/issues"
   },
-  "homepage": "https://github.com/ClarishaBOT/soothe#readme",
+  "homepage": "https://github.com/lrmn7/soothe#readme",
   "dependencies": {
     "@discordjs/voice": "^0.15.0",
     "@distube/deezer": "^1.0.0",
