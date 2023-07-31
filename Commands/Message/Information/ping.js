@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "ping",
+  name: "s/ping",
   aliases: ["latancy"],
   description: `get ping of bot`,
   userPermissions: PermissionFlagsBits.SendMessages,

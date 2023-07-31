@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "playtop",
+  name: "s/playtop",
   aliases: ["pt", "ptop"],
   description: `play top songs by Name/Link`,
   userPermissions: PermissionFlagsBits.Connect,

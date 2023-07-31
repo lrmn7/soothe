@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "unshuffle",
+  name: "s/unshuffle",
   aliases: ["unsfl"],
   description: `unshuffle current shuffled queue`,
   userPermissions: PermissionFlagsBits.Connect,

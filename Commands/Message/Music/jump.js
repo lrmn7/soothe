@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "jump",
+  name: "s/jump",
   aliases: ["jmp", "jp"],
   description: `jump to a song in queue by index`,
   userPermissions: PermissionFlagsBits.Connect,

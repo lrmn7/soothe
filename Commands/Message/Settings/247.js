@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "247",
+  name: "s/247",
   aliases: ["24vc"],
   description: `toggle 24/7 system on/off`,
   userPermissions: PermissionFlagsBits.ManageGuild,

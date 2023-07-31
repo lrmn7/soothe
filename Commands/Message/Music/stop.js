@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "stop",
+  name: "s/stop",
   aliases: ["st", "destroy"],
   description: `destroy current queue of server`,
   userPermissions: PermissionFlagsBits.Connect,

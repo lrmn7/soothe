@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "autoplay",
+  name: "s/autoplay",
   aliases: ["ap", "atp"],
   description: `toggle autoplay in your server`,
   userPermissions: PermissionFlagsBits.Connect,

@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "play",
+  name: "s/play",
   aliases: ["p", "song"],
   description: `play your fav by Name/Link`,
   userPermissions: PermissionFlagsBits.Connect,

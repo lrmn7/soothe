@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "playskip",
+  name: "s/playskip",
   aliases: ["ps", "pskip"],
   description: `play song by skip current song Name/Link`,
   userPermissions: PermissionFlagsBits.Connect,

@@ -17,19 +17,6 @@ _i am not prepared for life, only the apocalypse_
   <img src="https://lrmn7.vercel.app/api/now-playing" width="356" height="104" alt="Now Playing"/>
 </a>
 
-
-
-
-
-
-
-
-
-
-<div align="center">
-  <img height="150" src="meowsic.png"/>
-</div>
-
 ###
 
 # Advance Discord Music Bot
@@ -60,9 +47,19 @@ _*Rename `.env.example` to `.env.` and configure it*_
 
 ```env
 TOKEN=
-MONGO_URL=
 PREFIX=
+MONGO_URL=
 GUILD_ID=
+VOTE_URL=
+DISCORD_SERVER=
+INVITE_URL=
+COLOR=
+WRONGCOLOR=
+DONATE=
+AUTHOR=
+WEBSITE=
+INSTAGRAM=
+PORT=
 ```
 
 **4.** Now Let's Update Node Version. copy and paste in shell **`npm i --save-dev node@latest && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH`**
@@ -95,14 +92,6 @@ GUILD_ID=
 ## Feedback
 
 If you have any feedback, please reach out to us at [Discord Server](https://discord.gg/WFfjrQxnfH)
-
-# Thanks For Using Music bot Please Give a Star
-
-
-## 
-<div align="center">
-  <img width="80%" src="screenshot.png">
-</div> 
 
 
 ## License

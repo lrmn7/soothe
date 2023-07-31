@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "uptime",
+  name: "s/uptime",
   aliases: ["up"],
   description: `see when bot comes online`,
   userPermissions: PermissionFlagsBits.SendMessages,

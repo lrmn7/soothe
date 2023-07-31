@@ -1,15 +1,15 @@
 module.exports = {
   TOKEN: process.env.TOKEN || "BOT_TOKEN",
-  PREFIX: process.env.PREFIX || "m!",
+  PREFIX: process.env.PREFIX || "s/",
   embed: {
-    color: process.env.color || "#220f80",
-    wrongcolor: process.env.wrongcolor || "#8a0808",
+    color: process.env.COLOR || "#220f80",
+    wrongcolor: process.env.WRONGCOLOR || "#8a0808",
     footertext: "Made with 💗 by L RMN",
   },
   emoji: {
-    ERROR: "❌",
-    SUCCESS: "✅",
-    disabled: "🔴",
+    ERROR: "⛔",
+    SUCCESS: "🆗",
+    disabled: "🚫",
     enabled: "🟢",
     cleared: "🧹",
     time: "⏲️",
@@ -19,8 +19,8 @@ module.exports = {
     pause_resume: "⏯️",
     skip: "⏭️",
     loop: "🔄",
-    stop: "⏹️",
-    autoplay: "♾",
+    stop: "⏺️",
+    autoplay: "🔁",
   },
   // others
   mongodb: process.env.MONGO_URL || "MONGO_URL",
@@ -72,11 +72,15 @@ module.exports = {
   },
   links: {
     inviteURL:
-      process.env.inviteURL ||
+      process.env.INVITE_URL ||
       `https://discord.com/api/oauth2/authorize?client_id=1091126594006949978&permissions=8&scope=bot%20applications.commands`,
-    DiscordServer: process.env.DiscordServer || `https://discord.gg/WFfjrQxnfH`,
-    VoteURL: process.env.VoteURL || `https://discord.gg/WFfjrQxnfH`,
-    Instagram: `https://www/instagram.com/romanroman.nya/`,
+    DiscordServer: process.env.DISCORD_SERVER || `https://discord.gg/WFfjrQxnfH`,
+    VoteURL: process.env.VOTE_URL || `https://discord.gg/WFfjrQxnfH`,
+    Instagram: process.env.INSTAGRAM || `https://www/instagram.com/romanroman.nya/`,
+    Website: process.env.WEBSITE || `https://shoothe.is-a.fun`,
+    Author: process.env.AUTHOR || `https://hello.lrmn.site`,
+    Donate: process.env.DONATE || `https://buymeacoffee/lrmn`,
+
   },
   options: {
     embedFooter: true,

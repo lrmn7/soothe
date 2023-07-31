@@ -73,7 +73,7 @@ module.exports = async (client) => {
           ?.edit({
             embeds: [
               embeds.setFooter({
-                text: `⛔️ SONG & QUEUE ENDED!`,
+                text: `⊖ SONG & QUEUE ENDED ⊖!`,
                 iconURL: channel.guild.iconURL({ dynamic: true }),
               }),
             ],
@@ -176,18 +176,18 @@ module.exports = async (client) => {
   client.playembed = (guild) => {
     let embed = new EmbedBuilder()
       .setColor(client.config.embed.color)
-      // .setTitle(`Join a Voice Channel and Type Song Link/Name to Play`)
+      .setTitle(`Let SootheBot Bring Calm to Your Discord!`)
       .setAuthor({
         name: `Join a Voice Channel and Type Song Link/Name to Play`,
         iconURL: client.user.displayAvatarURL(),
       })
       .setDescription(
-        ` [Invite Now](${client.config.links.inviteURL}) • [Support Server](${client.config.links.DiscordServer}) • [Website](${client.config.links.Website})`
+        ` [Website](${client.config.links.Website}) ㋡ [Top.gg](${client.config.links.VoteURL}) ツ [Author](${client.config.links.Author}) ☹ヅ [Donate](${client.config.links.Donate}) ヅ [Discord Server](${client.config.links.DiscordServer})`
       )
       .setImage(
         guild.banner
           ? guild.bannerURL({ size: 4096 })
-          : `http://cdn.wallpaperinhd.net/wp-content/uploads/2018/11/02/Music-Background-Wallpaper-025.jpg`
+          : `https://i.imgur.com/xrRnxAz.gif`
       )
       .setFooter({
         text: guild.name,
@@ -366,7 +366,7 @@ module.exports = async (client) => {
 
     const emoji = {
       Information: "🔰",
-      Music: "🎵",
+      Music: "🎶",
       Settings: "⚙️",
     };
 
@@ -399,12 +399,12 @@ module.exports = async (client) => {
       })
       .setThumbnail(interaction.guild.iconURL({ dynamic: true }))
       .setDescription(
-        `** An advanced  Music System with Audio Filtering A unique Music Request System and way much more! **`
+        `** Let SootheBot Bring Calm to Your Discord! **`
       )
       .addFields([
         {
           name: `Stats`,
-          value: `>>> ** :gear: \`${allcommands}\` Commands \n :file_folder: \`${allguilds}\` Guilds \n ⌚️ ${botuptime} Uptime \n 🏓 \`${client.ws.ping}\` Ping \n  Made by [\` Fire Bird \`](https://discord.gg/PcUVWApWN3) **`,
+          value: `>>> ** :gear: \`${allcommands}\` Commands \n :file_folder: \`${allguilds}\` Guilds \n ⌚️ ${botuptime} Uptime \n 🏓 \`${client.ws.ping}\` Ping \n  Made by [\` L RMN \`](https://hello.lrmn.site) **`,
         },
       ])
       .setFooter(client.getFooter(user));
@@ -507,16 +507,17 @@ module.exports = async (client) => {
     });
 
     let help_embed = new EmbedBuilder()
-      .setColor(client.config.embed.color)
-      .setAuthor({
-        name: `My Commands`,
-        iconURL: client.user.displayAvatarURL({ dynamic: true }),
-      })
-      .addFields(allCommands)
-      .setFooter(client.getFooter(user));
-
-    send({
-      embeds: [help_embed],
-    });
+    .setColor(client.config.embed.color)
+    .setAuthor({
+      name: `All Commands`,
+      iconURL: client.user.displayAvatarURL({ dynamic: true }),
+    })
+    .addFields(allCommands)
+    .setFooter(client.getFooter(user))
+    .setThumbnail("https://i.imgur.com/lZtYLr4.png");
+  
+  send({
+    embeds: [help_embed],
+  });
   };
 };

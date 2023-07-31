@@ -4,7 +4,7 @@ const { Queue } = require("distube");
 const { PREFIX } = require("../../../settings/config");
 
 module.exports = {
-  name: "prefix",
+  name: "s/prefix",
   aliases: ["prefix", "setprefix"],
   description: `change prefix of current server`,
   userPermissions: PermissionFlagsBits.ManageGuild,

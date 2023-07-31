@@ -10,7 +10,7 @@ const { Queue } = require("distube");
 const { numberEmojis } = require("../../../settings/config");
 
 module.exports = {
-  name: "search",
+  name: "s/search",
   aliases: ["sr", "find"],
   description: `search a song by name`,
   userPermissions: PermissionFlagsBits.Connect,

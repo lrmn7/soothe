@@ -46,7 +46,7 @@ module.exports = {
           .setTitle("__**Stats:**__")
           .setThumbnail(client.user.displayAvatarURL())
           .setDescription(
-            `> ** Made by [\` L RMN \`](https://www.instagram.com/romanroman.nya) **`
+            `> ** Made by [\` L RMN \`](https://hello.lrmn.site) **`
           )
           .addFields([
             {
@@ -61,17 +61,17 @@ module.exports = {
               value: `\`${msToDuration(client.uptime)}\``,
             },
             {
-              name: `📁 Users`,
+              name: `🙈 Users`,
               value: `\`${client.guilds.cache.size} \``,
               inline: true,
             },
             {
-              name: `📁 Servers`,
+              name: `👻 Servers`,
               value: `\`${client.guilds.cache.size}\``,
               inline: true,
             },
             {
-              name: `📁 Channels`,
+              name: `🎗️ Channels`,
               value: `\`${client.channels.cache.size}\``,
               inline: true,
             },
@@ -81,7 +81,7 @@ module.exports = {
               inline: true,
             },
             {
-              name: `🤖 Node`,
+              name: `🔴 Node`,
               value: `\`${process.version}\``,
               inline: true,
             },
@@ -91,12 +91,12 @@ module.exports = {
               inline: true,
             },
             {
-              name: `🤖 CPU usage`,
+              name: `⚠️ CPU usage`,
               value: `\`${Math.floor(cpuUsage)}%\``,
               inline: true,
             },
             {
-              name: `🤖 Arch`,
+              name: `〽️ Arch`,
               value: `\`${osInfo.arch}\``,
               inline: true,
             },

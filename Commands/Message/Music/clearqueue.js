@@ -3,7 +3,7 @@ const JUGNU = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "clearqueue",
+  name: "s/clearqueue",
   aliases: ["clq", "clearq"],
   description: `clear current queue of server`,
   userPermissions: PermissionFlagsBits.Connect,

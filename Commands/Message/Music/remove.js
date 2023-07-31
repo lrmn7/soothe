@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "remove",
+  name: "s/remove",
   aliases: ["rem", "remsong"],
   description: `remove a song from current queue`,
   userPermissions: PermissionFlagsBits.Connect,

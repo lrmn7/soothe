@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "dj",
+  name: "s/dj",
   aliases: ["setupdj"],
   description: `DJ system on/off`,
   userPermissions: PermissionFlagsBits.ManageGuild,

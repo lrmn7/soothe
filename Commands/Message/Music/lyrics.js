@@ -5,7 +5,7 @@ const findLyrics = require("simple-find-lyrics");
 const { swap_pages } = require("../../../handlers/functions");
 
 module.exports = {
-  name: "lyrics",
+  name: "s/lyrics",
   aliases: ["lr"],
   description: `Find Lyrics Of Current Song`,
   userPermissions: PermissionFlagsBits.Connect,

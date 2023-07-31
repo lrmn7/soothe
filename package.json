@@ -1,6 +1,6 @@
 {
-  "name": "meowsic",
-  "version": "1.0.0",
+  "name": "soothe",
+  "version": "2.4.1",
   "description": "A music bot that provides high quality music with 24/7 In voice channels",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lrmn7/meowsic.git"
+    "url": "git+https://github.com/ClarishaBOT/soothe.git"
   },
   "keywords": [],
   "author": "LRMN",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lrmn7/meowsic/issues"
+    "url": "https://github.com/ClarishaBOT/soothe/issues"
   },
-  "homepage": "https://github.com/lrmn7/meowsic#readme",
+  "homepage": "https://github.com/ClarishaBOT/soothe#readme",
   "dependencies": {
     "@discordjs/voice": "^0.15.0",
     "@distube/deezer": "^1.0.0",

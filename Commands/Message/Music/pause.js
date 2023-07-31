@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "pause",
+  name: "s/pause",
   aliases: ["pu", "pj"],
   description: `pause current server queue`,
   userPermissions: PermissionFlagsBits.Connect,

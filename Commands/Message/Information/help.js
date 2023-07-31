@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "help",
+  name: "s/help",
   aliases: ["h", "cmds", "commands"],
   description: `need help ? see my all commands`,
   userPermissions: PermissionFlagsBits.SendMessages,

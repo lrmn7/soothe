@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "loop",
+  name: "s/loop",
   aliases: ["lp", "lop"],
   description: `toggle queue/song/off repeat mode`,
   userPermissions: PermissionFlagsBits.Connect,

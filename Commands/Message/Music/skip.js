@@ -4,7 +4,7 @@ const { Queue } = require("distube");
 const { skip } = require("../../../handlers/functions");
 
 module.exports = {
-  name: "skip",
+  name: "s/skip",
   aliases: ["s", "skp"],
   description: `skip to next song in queue`,
   userPermissions: PermissionFlagsBits.Connect,

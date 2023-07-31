@@ -4,7 +4,7 @@ const { Queue } = require("distube");
 const { links } = require("../../../settings/config");
 
 module.exports = {
-  name: "invite",
+  name: "s/invite",
   aliases: ["inv", "addme"],
   description: `Get My Invite Link For Add me !!`,
   userPermissions: PermissionFlagsBits.SendMessages,

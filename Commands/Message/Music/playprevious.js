@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "playprevious",
+  name: "s/playprevious",
   aliases: ["pp", "playp"],
   description: `play previous song of queue`,
   userPermissions: PermissionFlagsBits.Connect,

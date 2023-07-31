@@ -16,7 +16,7 @@ app.use(
 );
 
 app.get("/", (req, res) => {
-  res.send(`Hi, I'm L RMN | Meowsic is a Discord music bot with many commands, buttons, 24/7 playback, autoresume, and more!`);
+  res.send(`Hi, I'm L RMN | Soothe is a Discord music bot with many commands, buttons, 24/7 playback, autoresume, and more!`);
 });
 
 app.get("/home", (req, res) => {

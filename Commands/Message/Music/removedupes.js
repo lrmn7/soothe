@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "removedupes",
+  name: "s/removedupes",
   aliases: ["rmdupes", "rmd"],
   description: `remove duplicate songs from queue`,
   userPermissions: PermissionFlagsBits.Connect,

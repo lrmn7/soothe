@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "setupmusic",
+  name: "s/setupmusic",
   aliases: ["setmusic", "setup"],
   description: `setup music channel in server`,
   userPermissions: PermissionFlagsBits.ManageGuild,

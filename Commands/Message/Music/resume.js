@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "resume",
+  name: "s/resume",
   aliases: ["rsume"],
   description: `resume paused song in queue`,
   userPermissions: PermissionFlagsBits.Connect,

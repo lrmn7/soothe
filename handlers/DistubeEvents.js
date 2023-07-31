@@ -110,7 +110,7 @@ module.exports = async (client) => {
               .setDescription(`** [\`${song.name}\`](${song.url}) **`)
               .addFields([
                 {
-                  name: `Requested By`,
+                  name: `Req By`,
                   value: `\`${song.user.tag}\``,
                   inline: true,
                 },
@@ -154,7 +154,7 @@ module.exports = async (client) => {
               .setDescription(`[\`${song.name}\`](${song.url})`)
               .addFields([
                 {
-                  name: `Requested By`,
+                  name: `Req By`,
                   value: `\`${song.user.tag}\``,
                   inline: true,
                 },
@@ -200,7 +200,7 @@ module.exports = async (client) => {
               .setDescription(`** [\`${playlist.name}\`](${playlist.url}) **`)
               .addFields([
                 {
-                  name: `Requested By`,
+                  name: `Req By`,
                   value: `\`${playlist.user.tag}\``,
                   inline: true,
                 },

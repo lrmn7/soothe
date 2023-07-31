@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "config",
+  name: "s/config",
   aliases: ["cnf"],
   description: `see config of current server`,
   userPermissions: PermissionFlagsBits.SendMessages,

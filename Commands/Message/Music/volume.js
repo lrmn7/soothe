@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "volume",
+  name: "s/volume",
   aliases: ["vol"],
   description: `change volume of current queue`,
   userPermissions: PermissionFlagsBits.Connect,

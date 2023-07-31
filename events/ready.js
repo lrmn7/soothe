@@ -2,8 +2,8 @@ const { ActivityType } = require("discord.js");
 const client = require("../index");
 
 const activities = [
-  { name: "💗 /help", type: ActivityType.Playing },
-  { name: "💗 Music", type: ActivityType.Listening },
+  { name: "s/help or /help", type: ActivityType.Playing },
+  { name: "your heart 💗", type: ActivityType.Listening },
   { name: "with 💗 by L RMN", type: ActivityType.Watching},
 ];
 
@@ -33,5 +33,5 @@ function updateActivity() {
     currentActivityIndex = 0;
   }
 
-  setTimeout(updateActivity, 10000); // Ganti aktivitas setiap 10 detik
+  setTimeout(updateActivity, 10000);
 }

@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "nowplaying",
+  name: "s/nowplaying",
   aliases: ["np"],
   description: `see what is playing now`,
   userPermissions: PermissionFlagsBits.Connect,
@@ -45,7 +45,7 @@ module.exports = {
               inline: true,
             },
             {
-              name: `** Requested By **`,
+              name: `** Req By **`,
               value: ` \`${song.user.tag} \``,
               inline: true,
             },

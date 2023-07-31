@@ -9,7 +9,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "filter",
+  name: "s/filter",
   aliases: ["fl", "filters"],
   description: `set filter in queue by name`,
   userPermissions: PermissionFlagsBits.Connect,

@@ -3,7 +3,7 @@ const LRMN = require("../../../handlers/Client");
 const { Queue } = require("distube");
 
 module.exports = {
-  name: "reset",
+  name: "s/reset",
   aliases: ["reset"],
   description: `reset to default settings`,
   userPermissions: PermissionFlagsBits.ManageGuild,

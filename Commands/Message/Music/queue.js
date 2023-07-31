@@ -4,7 +4,7 @@ const { Queue } = require("distube");
 const { swap_pages } = require("../../../handlers/functions");
 
 module.exports = {
-  name: "queue",
+  name: "s/queue",
   aliases: ["q", "list"],
   description: `see current queue with pagination`,
   userPermissions: PermissionFlagsBits.Connect,
